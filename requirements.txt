@@ -1,0 +1,8 @@
+zmq
+numpy
+scipy
+Pillow
+matplotlib
+scikit-image
+opencv-python
+imutils
