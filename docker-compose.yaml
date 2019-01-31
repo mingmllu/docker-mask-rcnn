@@ -13,6 +13,7 @@ services:
        - OUTPUT_VIDEO_FILENAME=
        - MAX_FRAMES_TO_BE_SAVED=100
        - RANDOM_MASK_COLORS=
+       - SOURCE_IMAGE_RESIZE_FACTOR=0.5
       volumes:
        - ~/Downloads:/mask_rcnn/videos/
 
