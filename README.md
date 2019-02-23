@@ -31,4 +31,4 @@ $ docker-compose up
 ```
 python video_zmq_client.py --server-ip xxx.xxx.xxx.xxx --port 5566
 ```
-where xxx.xxx.xxx.xxx is the IP address of the GPU host machine where the container is runnig.
+where xxx.xxx.xxx.xxx is the IP address of the GPU host machine where the container is running.
