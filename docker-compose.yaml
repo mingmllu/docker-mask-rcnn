@@ -1,7 +1,7 @@
 version: '3.7'
 services:
     mask_rcnn:
-      image: "mmlu/mask_rcnn_gpu:v0.2tf1.12.0"
+      image: "mmlu/mask_rcnn_gpu:v0.4tf1.12.0"
       container_name: mask-rcnn-gpu
       ports:
        - "5566:5566"
