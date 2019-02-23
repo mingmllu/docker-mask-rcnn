@@ -25,7 +25,7 @@ The client and host machines must be connected to the same network.
 ```
 $ docker-compose up
 ```
-> Note: To use live video as input, set the URL of the camera to ```IMAGE_SOURCE``` in ```docker-compose.yaml```. For exampe:
+> Note: To use live video as input, set the URL of the camera to ```IMAGE_SOURCE``` in ```docker-compose.yaml```. For example:
 ```
        - IMAGE_SOURCE=http://108.53.114.166/mjpg/video.mjpg
 ```
