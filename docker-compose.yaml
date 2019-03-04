@@ -16,6 +16,7 @@ services:
        - SOURCE_IMAGE_RESIZE_FACTOR=0.5
        - SHOW_SEGMENTATION_MASK=0
        - SHOW_INSTANCE_ID=1
+       - DISABLE_INNER_AREA_CHECK=0
       volumes:
        - ~/Downloads:/mask_rcnn/videos/
 
