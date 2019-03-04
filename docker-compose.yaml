@@ -14,7 +14,7 @@ services:
        - MAX_FRAMES_TO_BE_SAVED=100
        - RANDOM_MASK_COLORS=
        - SOURCE_IMAGE_RESIZE_FACTOR=0.5
-       - SHOW_SEGMENTATION_MASK=1
+       - SHOW_SEGMENTATION_MASK=0
        - SHOW_INSTANCE_ID=1
       volumes:
        - ~/Downloads:/mask_rcnn/videos/
